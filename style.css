@@ -1,0 +1,369 @@
+
+/* CSS   */
+
+*
+{
+	margin:0px;
+}
+
+/* . for class...... # for id*/
+
+
+#section1{
+		background-image: url("images/keys.png");
+		background-size: 100%;	
+		width: 100%;
+		height: 570px;
+		padding-top: 180px; /* for spaces */
+		}
+
+#circle1{
+		border: 1px solid #fff; /* width style color*/
+		border-radius: 100%; /* circle1 by value 100% */
+		width: 320px;
+		height: 320px;
+		}		
+
+#circle2{
+		border: 1px solid #fff; 
+		border-radius: 100%; 
+		width: 300px;
+		height: 300px;
+		margin-top: 10px;
+		background-color: #fff;
+		padding-top: 0px;
+
+		}
+
+
+#logo{
+	  padding-top: 100px;
+	 
+	 }
+
+#logo h1 span{
+	font-family: candara;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#desc{
+	font-family: calibri;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 75px;
+     }
+
+#section2{
+
+	color: black;
+	background-size: 100%;
+	width: 100%;
+	height: 800px;
+	
+
+		}
+
+#content{
+	font-family: candara;
+	font-size: 15px;
+	margin-left: 150px;
+	padding-top: 20px;
+	font-weight: bold;
+
+     }
+
+#desc2{
+
+	font-family: calibri;
+	font-size: 10px;
+	text-align: left;
+	opacity: 0.8;
+    border-bottom: 1px solid red;
+     }
+
+#desc2 h1 {
+	margin-left: 150px;
+}     
+
+#aboutme{
+	
+	margin-right: auto;
+	margin-left: auto;
+	font-family: calibri;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 30px;
+
+     }
+
+#aboutinfo{
+
+	font-family: calibri;
+	font-size: 20px;
+	width:440px;
+	
+     	}
+
+/* classes for small small beautifacation.....id for large
+id k ander classes
+*/
+
+#details{
+	width: 1200px;
+	padding-top: 40px;
+	font-family: calibri;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+#details span ul li{
+	
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.info{
+	float: left;
+	width: 350px;
+	padding-left: 60px;
+	
+
+}
+#info{
+	margin-top: 15px;
+	width:350px;
+	border:1px solid black;
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 10px;
+	height:190px;
+
+}
+
+#info table{
+	width: 350px;
+	height: 170px;
+
+}
+
+.story{
+	width: 300px;
+	float:left;
+	font-size: 18px;
+	padding-left: 50px;
+
+}
+
+#story{
+	margin-top: 15px;	
+	width: 350px;
+
+}
+
+.education{
+	width: 350px;
+	float: left;
+	font-size: 18px;
+	padding-left: 80px;
+	
+}
+
+#education{
+	margin-top: 15px;	
+	width: 350px;
+
+}
+
+.skills{
+	float: left;
+	width: 1200px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+
+}
+
+#skills table{
+	width: 1150px;
+	margin-left: 60px;
+
+	
+}
+
+
+#skills table td{
+	width: 400px;
+	font-size: 18px;
+	height: 120px;
+
+}
+
+#skills table img{
+	width: 150px;
+	height: 150px;
+}
+
+
+
+#section3{
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100%;
+	width: 100%;
+	height: auto;
+	font-family: calibri;
+	clear: both;
+		}	
+
+#thought{
+	padding-top: 10px;
+	width: 500px;
+	font-size: 20px;
+
+}
+
+#prodetails{
+	margin-top: 60px;	
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+
+}
+#prodetails td p{
+	font-size: 18px;
+	opacity: 0.8;
+
+}
+
+#prodetails td{
+	height: 180px;
+	width:300px;
+}
+
+#prodetails td h3{
+	color: tomato;
+}
+
+#section3 table td:hover{
+	background-color: grey;
+	color: white;
+}
+
+#section4{
+	background-size: 100%;
+	width: 100%;
+	height: 500px;
+	font-family: calibri;
+	margin-left: auto;
+	margin-right: auto;
+		}
+
+#divcontact{
+	margin-top: 20px;
+	width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#div1{
+	float: left;
+	width: 700px;
+}
+#div1 form input{
+	width: 500px;
+	margin:20px;
+	padding:10px;
+
+}
+
+#div2{
+	margin-top: 20px;
+	float: left;
+	width: 700px;
+	
+}
+
+#div2 textarea{
+	padding: 10px;
+}
+
+#send{
+	clear: both;
+	padding-top: 40px;
+
+}
+
+#send button{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	font-size: 15px;
+	font-family: candara;
+	border: 2px solid red;
+	font-weight: bold;
+
+}
+
+#send button:hover{
+	cursor: pointer;
+	background-color: red;
+	color: white;
+}
+
+#section5{
+	height: 750px;
+	background-image: url("images/sumit.jpg");
+	width: 100%;
+	margin-right:auto;
+	margin-left: auto;
+	background-size: 100%;
+	font-family: calibri; 
+}
+
+#medesc{
+	text-align: left;
+	font-size: 35px;
+	padding-left: 110px;
+	font-family: candara;
+	clear: both;
+
+}
+
+#links{
+	padding-top: 110px;
+	padding-left: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	}
+
+#links img{
+	border-radius: 100%;
+	width: 55px;
+	height: 55px;
+	border: 2px solid black;
+}
+
+#links td:hover{
+	background-color: grey;
+}
+#section5 p{
+	padding-top: 430px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+#last{
+	background-color: black;
+	color: white;
+	font-family: courier;
+	font-size: 15px;
+	height: 50px;
+}

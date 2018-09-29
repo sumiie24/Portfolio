@@ -3,14 +3,55 @@
 	<head>
 
 		<title>Sumit Yadav | Web Portfolio </title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
 	</head>
 	
 	<body>
 		<!--Section 1-->
-		<div id="section1">
+<div class="row">		
+ <div id="section1"> 
+	<header>  
+	
+	<nav>
+	<div id="navbar">
+
+	<div class="logo col-md-4 col-sm-3 col-xs-6">
+		<a href="index.html">
+		 <img src="images/logo2.png" alt="logo_img" width="100px" height="100px">
+		 </a>
+	</div>
+
+	<div class="portfolio col-md-4 col-sm-4"><a href="index.html"><h1>Portfolio</h1></a></div>
+	
+	
+	<input type="checkbox" id="toggle_check"/>
+	<label class="toggle_button" for="toggle_check"><i class="fa fa-bars fa-2x"></i><span></label>
+
+
+	<ul id="navUL">
+		<li><a href="index.html"> Home</a></li>
+		<li><a href="#section2"> About Me</a></li>
+		<li><a href="#section"> Resume</a></li>
+		<li><a href="#section3"> Projects and Achievements</a></li>
+		<li><a href="#section4"> Contact Me</a></li>
+	</ul>
+	</div>
+	</nav>
+	</header>
+	</div>
+
+	<div class="belownav">
 			<center>
+				<div class="tocenter">
 				<div id="circle1">
 					<div id="circle2">
 						<div id="CircleDetails">
@@ -22,13 +63,16 @@
 								<br>
 								<div id ="desc">
 								<i>Web Developer</i>
-								</div>
+								</div>	
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 			</center>
 		</div>
+
+		
 	
 <!-- Section 2-->
 		<div id="section2">
@@ -61,6 +105,8 @@
 			</center>	
 		
 			<div id="details">
+				<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12">
 				<div class="info">
 					<span>
 						<ul>
@@ -68,7 +114,7 @@
 						</ul>
 					</span>
 
-					<div id="info">
+					<div id="info" >
 						<table>
 							<tr>
 								<td>Name</td>
@@ -82,7 +128,7 @@
 
 							<tr>
 								<td>Email</td>
-								<td>24yadav09sumit96@gmail.com</td>
+								<td>ysumit2409@gmail.com</td>
 							</tr>
 
 							<tr>
@@ -92,7 +138,9 @@
 						</table>
 			    </div>
 			</div>
+		</div>
 
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
 			<div class="story">
 				<span>
 					<ul>
@@ -100,7 +148,7 @@
 					</ul>
 				</span>
 
-				<div  id="story">
+				<div id="story" >
 					I'm a self taught web developer.
 					<br>
 					<br>
@@ -111,9 +159,11 @@
 					<p>
 					Currently I am working on my skills.</p>
 				</div>
+				</div>
 			</div>
 
-			<div class="education">
+			<div class="col-md-4 col-sm- col-xs-12">
+			<div class="education ">
 				<span>
 					<ul>
 						<li>EDUCATION</li>
@@ -123,7 +173,7 @@
 				<div id="education">
 					<b><u>College</u></b>
 					<br><br>
-					<p>B.tech in Computer Science from Jaypee University of Engineering and Technology, Guna, Madhya Pradesh (2nd year).</p>
+					<p>B.tech in Computer Science from Jaypee University of Engineering and Technology, Guna, Madhya Pradesh (3rd year).</p>
 						
 					<br><br>
 					<b><u>School</u></b>						
@@ -132,6 +182,9 @@
 				
 				</div>
 			</div>
+		</div>
+	</div>
+
 
 				<div class="skills">
 					<span>
@@ -143,7 +196,7 @@
 					<div id="skills">
 						<table cellpadding="20px">
 							<tr>
-								<td><img src="images/c.jpg" alt="C & C++ language"><br><b>C & C++</b></td>
+								<td ><img src="images/c.jpg" alt="C & C++ language"><br><b>C & C++</b></td>
 								<td><img src="images/python.jpg" alt="Python"><b>Python</b></td>
 								<td><img src="images/dbms.jpg" alt="DBMS"><b>DBMS</b></td>
 							</tr>
@@ -171,80 +224,102 @@
 				</div>
 			</center>
 			
+
 			<div id="prodetails">
 				<table cellpadding="30px">
+			<div class="row">
 					<tr>
+						<div class="col-md-3 col-sm-4 col-xs-6">
 						<td>
-							<h2>#Project 1</h2>
+							<a href="https://github.com/sumiie24/Sumex-Plaza" target="_blank">
+							<h2>#Project 1 </h2>
 							<h3>Python Programming Project</h3>
-							<p>Brief description of project.
+							<p>Based on Python GUI and Database.
 								<br>
 								<br>
 								<br>
 							</p>
+						</a>
 						</td>
+					</div>
 
-						<td>
+						<div class="col-md-3 col-sm-4 col-xs-6">	
+						<td >
+							<a href="https://github.com/sumiie24/sumiie24.github.io" target="_blank">
 							<h2>#Project 2</h2>
-							<h3>Designing web pages
+							<h3>Portfolio
 							</h3>
-							<p>Brief description of project.
+							<p>Based on HTML, CSS, JS, PHP and SQL.
 								<br>
 								<br>
 								<br>
 							</p>	
+						</a>
 						</td>
+						</div>
 
-						<td>
+						<div class="col-md-3 col-sm-4 col-xs-6">	
+						<td >
 							<h2>#Project 3</h2>
-							<h3>C++ Project</h3>
-							<p>Brief description of project.
+							<h3><i style="color: black"> ||Upcoming||</i> Java Project</h3>
+							<p>Project is in process.
 								<br>
 								<br>
 								<br>	
 							</p>	
 						</td>
+					</div>
+
+					<div class="col-md-3 col-sm-4 col-xs-6">
 
 						<td>
 							<h2>#Project 4</h2>
-							<h3>Networking Project</h3>
-							<p>Brief description of project.
+							<h3><i style="color: black"> ||Upcoming||</i> Online Quiz Portal Project</h3>
+							<p>Project is in process.
 								<br>
 								<br>
 								<br>		
 							</p>	
 						</td>
+					</div>
 					</tr>
 
 					<tr>
-						<td> </td>
-
+						
+							<div class="col-md-3 col-sm-4 col-xs-6">
 						<td>
 							<h2>#Project 5</h2>
-							<h3>1st Main Project</h3>
-							<p>Brief description of project.
+							<h3><i style="color: black"> ||Upcoming||</i> Project</h3>
+							<p>
 								<br>
 								<br>
 								<br>
 							</p>	
 						</td>
+					</div>
+
+						<div class="col-md-3 col-sm-4 col-xs-6">
 
 						<td>
 							<h2>#Project 6</h2>
-							<h3>2nd Main Project</h3>
-							<p>Brief description of project.
+							<h3><i style="color: black"> ||Upcoming||</i> Project</h3>
+							<p>
 								<br>
 								<br>
 								<br>
 							</p>	
 						</td>
 						
-						<td></td>				
+						</div>
+										
 					</tr>
+				</div>
 				</table>
 			</div>
 		</div>
+		
 
+			
 		<div id="section4">
 			<center>
 				<div id="aboutme">
@@ -254,25 +329,37 @@
 			</center>
 
 			<div id=divcontact>
-				<div id="div1">
-					<form>
-						<input type="text" placeholder="Name"><br>
-						<input type="text" placeholder="Email"><br>
-						<input type="text" placeholder="Subject"><br>
-					</form>
+					
+
+						<form action="./validate.php" method="post">
+								<div id="div1" class="col-md-4 col-sm-4 col-xs-4">
+							<!-- First name-->	
+							<input type="text" placeholder="Name" name="name" required="true"><br>
+
+							<!-- Email-->
+							<input type="text" placeholder="Email" name="email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9-.-]+\.[a-z]{2,3}$"><br>
+
+							<!-- Subject-->
+							<input type="text" placeholder="Subject" name="subject" required="true"><br>
+					
+							</div>
+		
+				<!-- Message Box-->
+				<div id="div2" class="col-md-4 col-sm-4 col-xs-4">
+					<textarea rows="13" cols="60" placeholder="Message" required="true" name="message"></textarea>
 				</div>
-				
-				<div id="div2">
-					<textarea rows="13" cols="60" placeholder="Message"></textarea>
-				</div>
-			</div>
+			
 			
 			<center>
 				<div id="send">
+
 				<button>Send</button>
 				</div>
-			</center>	
+			</center>
+			</form>	
 		</div>
+		</div>
+	
 
 		<div id="section5">	
 
@@ -281,22 +368,24 @@
 				
 				<tr>
 				
-				<td><a href="https://www.facebook.com/sumiie24" target="_blank"><img src="images/fb.png" width="50" height="50"></a>
-				</td>
-				
-				<td><a href="https://www.instagram.com/sumiie24/" target="_blank"><img src="images/insta.jpg" width="50" height="50"></a>
-				</td>
+					<td><a href="https://www.facebook.com/sumiie24" target="_blank"><i class="fab fa-facebook"></i></a>
+					</td>
+					
+					<td><a href="https://www.instagram.com/sumiie24/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</td>
 
-				<td><a href="https://www.linkedin.com/in/sumiie24/" target="_blank"><img src="images/link.png" width="50" height="50"></a>
-				</td>		
-				
-				<td>
-				<a href="https://github.com/sumiie24" target=
-				"_blank"><img src="images/git.png" width="50" height="50"></a>
-				</td>
-			</tr>
+					<td><a href="https://www.linkedin.com/in/sumiie24/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					</td>		
+					
+					<td>
+					<a href="https://github.com/sumiie24" target=
+					"_blank"><i class="fab fa-github"></i></a>
+					</td>	
+				</tr>
 		</table>
 	</div>
+
+
 			<div id="medesc">
 				<br>
 				<h2>Sumit Yadav</h2>
@@ -308,23 +397,55 @@
 https://www.instagram.com/sumiie24/
 https://www.linkedin.com/in/sumiie24/			
 https://github.com/sumiie24
+	<div class="visitor">
+		<h4 style="color: purple"> You are visitor no. :- 112</h4>
+	</div>
 -->
-
 		</div>
 		<div id="last">
 			<center>
 				<p>
 					<b>Developer:</b> <b style="color: red">Sumit Yadav</b>
 					<br>
-					© Copyright Developer. All right reserved.
+					&copy Copyright Developer. All rights reserved.
 					<br>
 					*for more information about developer, click on the icons.
 					
 				</p>
 			</center>	
 		</div>
+	</div>
+
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+
+	<script type="text/javascript">
+		
+		//scrolling effect
+
+		$(window).on("scroll", function(){	
+			if($(window).scrollTop()){
+				$('#navbar').addClass('black');
+			}
+			else{
+				$('#navbar').removeClass('black');
+			}
+		})
+		
+
+	</script>
+
+
+<!--       phpmailer     -->
+
+<!-- phpmailer   -->
+
+
 
 	</body>
+
 </html>
 
 

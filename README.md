@@ -17,7 +17,6 @@ First website!
 ## Updation
 * The website construction is in process. The website can be best viewed on Desktop.
 * **Responsive** feature will be available soon. [For better view of website in Mobile and Tablet].
-* **UI** will be more nice in the next updation of website.
 * **Good Optimization** of website is in process.
 
 

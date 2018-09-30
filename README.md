@@ -4,11 +4,11 @@ First website!
 
 
 ## To view the project
-* Link for website -> **[www.sumiie.ml](www.sumiie.ml)**
+* Link for website -> **[www.sumiie.ml](http://www.sumiie.ml/)**
 
 
 ## Feature
-* Viewer can contact the developer(**Sumit Yadav**) by writing message in the message box in the **Contact Us** section.
+* Viewer can contact the developer(**Sumit Yadav**) by writing message in the message box in the **Contact Us** section in the webiste.
 
 
 ## Screenshots 

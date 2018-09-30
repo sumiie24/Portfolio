@@ -12,7 +12,20 @@ First website!
 
 
 ## Screenshots 
+*   1
+        <img src="https://github.com/sumiie24/Portfolio/blob/master/ui%20images/home.png" />
 
+*   2
+        <img src="https://github.com/sumiie24/Portfolio/blob/master/ui%20images/aboutme.png" />
+
+*   3
+        <img src="https://github.com/sumiie24/Portfolio/blob/master/ui%20images/projects.png" />
+
+*   4
+        <img src="https://github.com/sumiie24/Portfolio/blob/master/ui%20images/contact.png" />
+        
+*   5
+        <img src="https://github.com/sumiie24/Portfolio/blob/master/ui%20images/me.png" />
 
 ## Updation
 * The website construction is in process. The website can be best viewed on Desktop.

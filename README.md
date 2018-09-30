@@ -8,7 +8,7 @@ First website!
 
 
 ## Feature
-* Viewer can contact the developer(**Sumit Yadav**) by writing message in the message box in the **Contact Us** section in the webiste.
+* Viewer can contact the developer(**Sumit Yadav**) by writing message in the reuired fields in the **Contact Us** section in the webiste.
 
 
 ## Screenshots 
@@ -18,7 +18,7 @@ First website!
 * The website construction is in process. The website can be best viewed on Desktop.
 * **Responsive** feature will be available soon. [For better view of website in Mobile and Tablet].
 * **UI** will be more nice in the next updation of website.
-* **Good Optimization** is in process.
+* **Good Optimization** of website is in process.
 
 
 ## Requirements

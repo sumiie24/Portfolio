@@ -1,4 +1,4 @@
-# Portfolio- 
+# Portfolio 
 A Web Portfolio Using HTML, CSS, JS, jQuery, PHP, SQL.
 First website!
 

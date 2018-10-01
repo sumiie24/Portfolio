@@ -8,7 +8,7 @@ First website!
 
 
 ## Feature
-* Viewer can contact the developer(**Sumit Yadav**) by writing message in the reuired fields in the **Contact Us** section in the webiste.
+* Viewer can contact the developer(**Sumit Yadav**) by writing message in the required fields in the **Contact Us** section in the webiste.
 
 
 ## Screenshots 

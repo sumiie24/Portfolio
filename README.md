@@ -4,7 +4,7 @@ First website!
 
 
 ## To view the project
-* Link for website -> **[www.sumiie.ml](http://www.sumiie.ml/)**
+* Link for website -> **[http://www.sumiie.ml/](http://www.sumiie.ml/)**
 
 
 ## Feature

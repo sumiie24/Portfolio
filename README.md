@@ -1,5 +1,5 @@
 # Portfolio 
-A Web Portfolio Using HTML, CSS, JS, jQuery, PHP, SQL.
+A Web Portfolio Using HTML, CSS, JS, jQuery, PHP, MySQL.
 First website!
 
 
